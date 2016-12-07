@@ -1,0 +1,43 @@
+.slide swiper {
+    height: 400rpx;
+}
+.slide-image {
+    width: 100%;
+    height: 100%
+}
+.header {
+  padding: 40rpx 80rpx 20rpx;
+}
+.title {
+  display: block;
+  font-size: 50rpx;
+}
+.description {
+  display: block;
+  margin-top: 30rpx;
+  color: #888;
+  font-size: 28rpx;
+}
+.board {
+    display: flex;
+    flex-direction: column;
+    padding: 20rpx;
+}
+.board-item {
+    flex: 1;
+    margin-top: 10px;
+    padding: 30rpx;
+    border: 1rpx solid #eee;
+    display: flex;
+    cursor: pointer;
+    background-color: #fbf9fe;
+    border-radius: 15rpx;
+
+}
+.board-item text {
+    flex: 1;
+}
+.board-item image {
+    width: 40rpx;
+    height: 40rpx;
+}

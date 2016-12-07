@@ -1,0 +1,8 @@
+<view class="splash">
+    <view class="box">
+        <text class="title">My first</text>
+        <text class="title">小程序</text>
+        <button class="btn" bindtap="sClick">进入</button>
+        <text class="thanks">Thanks for: 豆瓣API</text>
+    </view>
+</view>

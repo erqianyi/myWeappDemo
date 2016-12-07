@@ -1,0 +1,13 @@
+<scroll-view scroll-y="true" wx:if="{{subjects.title}}">
+  <view class="meta">
+    <image class="poster" src="{{subjects.images.large}}" background-size="cover"/>
+    <text class="title">{{subjects.title}}({{subjects.year}})</text>
+    <text class="info">评分：{{subjects.rating.average}}</text>
+    <text class="info">导演：<block wx:for="{{subjects.directors}}"> {{item.name}} </block></text>
+    <text class="info">主演：<block wx:for="{{subjects.casts}}"> {{item.name}} </block></text>
+  </view>
+  <view class="summary">
+    <text class="label">摘要：</text>
+    <text class="content">{{subjects.summary}}</text>
+  </view>
+</scroll-view>
